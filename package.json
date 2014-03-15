@@ -1,0 +1,24 @@
+{
+  "name": "i-need-a-playlist",
+  "version": "0.0.1",
+  "description": "Generate a playlist based on other playlists",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewburgess/i-need-a-playlist.git"
+  },
+  "keywords": [
+    "music",
+    "playlist",
+    "spotify"
+  ],
+  "author": "Andrew Burgess <andrew@deceptacle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewburgess/i-need-a-playlist/issues"
+  },
+  "homepage": "https://github.com/andrewburgess/i-need-a-playlist"
+}
