@@ -1,6 +1,7 @@
 'use strict';
 
 var restify = require('restify');
+var config = require('./config.js');
 
 var server = restify.createServer({
     name: 'i-need-a-playlist',
@@ -10,6 +11,7 @@ var server = restify.createServer({
 server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
+server.use(restify.gzipResponse());
 
 server.get('/echo/:message', function (req, res, next) {
     res.send(req.params);
