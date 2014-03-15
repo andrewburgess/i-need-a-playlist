@@ -2,6 +2,7 @@
 
 var restify = require('restify');
 var config = require('./config.js');
+var db = require('./data.js');
 
 var server = restify.createServer({
     name: 'i-need-a-playlist',
