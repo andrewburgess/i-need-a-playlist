@@ -23,6 +23,7 @@
   "homepage": "https://github.com/andrewburgess/i-need-a-playlist",
   "dependencies": {
     "restify": "~2.6.3",
-    "neo4j": "~1.1.0"
+    "neo4j": "~1.1.0",
+    "node-spotify": "~0.5.0"
   }
 }

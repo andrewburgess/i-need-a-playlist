@@ -21,4 +21,5 @@ server.get('/echo/:message', function (req, res, next) {
 
 server.listen(8000, function () {
     console.log('server listening on 8000');
+    require('./lib/spotify');
 });
