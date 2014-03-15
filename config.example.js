@@ -2,8 +2,7 @@
 
 module.exports = {
     database: {
-        host: 'localhost',
-        port: 7474
+        url: 'http://localhost:7474'
     },
     spotifyKey: [
         // Put your Spotify developer key here

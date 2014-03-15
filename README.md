@@ -21,8 +21,7 @@ These are the configuration options that you can use
 
     {
         server: {
-            host: 'string', // Host name of your Neo4j instance
-            port: 1234 // Port to use to connect to Neo4j
+            url: 'url to neo4j'
         },
         spotifyKey: [
             // Array of bytes, copied from your Spotify developer
