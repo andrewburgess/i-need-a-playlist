@@ -6,6 +6,8 @@ Generate playlists based on other playlists
 
 Running your own copy relies on [Neo4j](http://neo4j.com).
 
+**NOTE:** You must be running Linux or OSX
+
 ## Running
 
 Make sure to install all of the dependencies
