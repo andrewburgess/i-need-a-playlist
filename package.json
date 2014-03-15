@@ -24,6 +24,7 @@
   "dependencies": {
     "restify": "~2.6.3",
     "neo4j": "~1.1.0",
-    "node-spotify": "~0.5.0"
+    "node-spotify": "~0.5.0",
+    "q": "~1.0.1"
   }
 }
