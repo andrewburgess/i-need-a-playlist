@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/andrewburgess/i-need-a-playlist/issues"
   },
-  "homepage": "https://github.com/andrewburgess/i-need-a-playlist"
+  "homepage": "https://github.com/andrewburgess/i-need-a-playlist",
+  "dependencies": {
+    "restify": "~2.6.3"
+  }
 }
