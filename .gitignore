@@ -18,3 +18,4 @@ config.js
 spotify_appkey.key
 cache/*
 settings/*
+queue.txt
