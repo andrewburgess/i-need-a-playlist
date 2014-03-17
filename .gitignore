@@ -19,3 +19,7 @@ spotify_appkey.key
 cache/*
 settings/*
 queue.txt
+i-need-a-playlist.njsproj
+i-need-a-playlist.sln
+i-need-a-playlist.sublime-project
+i-need-a-playlist.sublime-workspace
