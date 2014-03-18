@@ -7,10 +7,6 @@ Generate playlists based on other playlists
 
 Running your own copy relies on [Neo4j](http://neo4j.com).
 
-**OSX**
-
-    brew install libspotify
-
 ## Running
 
 Make sure to install all of the dependencies
