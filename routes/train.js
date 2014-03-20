@@ -6,7 +6,7 @@ module.exports = function (server) {
     server.post('/train', function (req, res, next) {
         queue.process(req.body);
 
-        res.status(200).json({
+        res.json(200, {
             success: true,
             message: 'playlist added to queue'
         });
